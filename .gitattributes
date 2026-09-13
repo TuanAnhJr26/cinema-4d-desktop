@@ -1,0 +1,11 @@
+# See https://github.com/github/linguist  
+# Exclude build artifacts
+# Do not edit manually
+*.png binary
+dist/* linguist-vendored
+src/**/*.ts linguist-detectable
+
+node_modules/* linguist-vendored
+
+public/*.html linguist-vendored
+*.htm linguist-vendored
